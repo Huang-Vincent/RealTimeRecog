@@ -4,7 +4,6 @@ from kivy.uix.widget import Widget
 from kivy.graphics import Line, Color
 from kivy.core.window import Window
 
-
 class DrawInput(Widget):
 
     def on_touch_down(self, touch):
