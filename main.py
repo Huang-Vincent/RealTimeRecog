@@ -11,7 +11,7 @@ class DrawInput(Widget):
         if touch.button == 'left':
             with self.canvas:
                 Color(1, 1, 1)
-                touch.ud["line"] = Line(point=(touch.x, touch.y), width = 5)
+                touch.ud["line"] = Line(point=(touch.x, touch.y), width = 3)
         else:
             self.canvas.clear();
 
